@@ -4,7 +4,7 @@
 
 Kernel is a powerful, agentic platform designed to bring "vibe coding" and autonomous execution to your local environment. It features a sleek, terminal-inspired web interface communicating with a robust Python backend to manage agents, secrets, and artifacts.
 
-![Kernel Terminal UI](https://placehold.co/800x400?text=Kernel+UI+Screenshot)
+<img width="1192" height="672" alt="image" src="https://github.com/user-attachments/assets/e2fd15b5-b28a-49fa-9a47-29c2b67385d0" />
 
 ## Features
 
