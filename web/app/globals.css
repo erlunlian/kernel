@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #e5e5e5;
+  --terminal-green: #22c55e;
+  --terminal-red: #ef4444;
+  --terminal-dim: #525252;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Fira Code', 'JetBrains Mono', monospace;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--terminal-dim);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground);
+}
+
+.text-terminal-green { color: var(--terminal-green); }
+.text-terminal-red { color: var(--terminal-red); }
+.text-terminal-dim { color: var(--terminal-dim); }
+
+.border-terminal-dim { border-color: var(--terminal-dim); }
