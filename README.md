@@ -78,6 +78,3 @@ npm install
 
 To deploy this project, ensure you set the necessary environment variables in your deployment environment (e.g., Vercel, Railway, Docker).
 
----
-
-_Built with ❤️ by [Your Name]_
